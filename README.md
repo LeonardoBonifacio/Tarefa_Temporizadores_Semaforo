@@ -3,4 +3,4 @@ Este código implementa a logica de um sinal de transito em que os leds são ace
 
 
 
-Para rodar este código é necessário ter o arquivo .c e o arquivo do cmakelist em uma pasta para que logo apos você utilize a extensão da raspberry pico para importar este projeto e poder compilá - lo e rodar tanto na sua BitDogLab(colocando dentro do cmakelist "pico_enable_stdio_usb(UC4_TAREFA6 1, e mudando os pinos do leds para vermelho == 13, amarelo == 13 e 11(liga os dois leds) e verde == 11)") ou através da extensão wokwi pelo vs code, tendo os arquivos diagram.json  e o wokwi.toml preenchidos.
+Para rodar este código é necessário ter o arquivo .c e o arquivo do cmakelist em uma pasta para que logo apos você utilize a extensão da raspberry pico para importar este projeto e poder compilá - lo e rodar tanto na sua BitDogLab(mudando os pinos do leds para vermelho == 13, amarelo == 13 e 11(liga os dois leds) e verde == 11)") ou através da extensão wokwi pelo vs code, tendo os arquivos diagram.json  e o wokwi.toml preenchidos.
