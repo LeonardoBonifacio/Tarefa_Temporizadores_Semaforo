@@ -41,7 +41,7 @@ pico_set_program_name(UC4_TAREFA5 "UC4_TAREFA5")
 pico_set_program_version(UC4_TAREFA5 "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(UC4_TAREFA5 1)
+pico_enable_stdio_uart(UC4_TAREFA5 0)
 pico_enable_stdio_usb(UC4_TAREFA5 0)
 
 # Add the standard library to the build
